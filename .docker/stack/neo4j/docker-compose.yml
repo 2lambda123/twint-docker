@@ -93,7 +93,7 @@ services:
     - NEO4J_apoc_import_file_use__neo4j__config=false
     - NEO4J_dbms_security_procedures_unrestricted=apoc.\\\*
 
-  # This core demonstrates that additional instances can be added after the initial core is established 
+  # This core demonstrates that additional instances can be added after the initial core is established
   # (ie: this instance is nost listed within "initialDiscoveryMembers")
   neo4j-core4:
     image: neo4j:4.0.0-enterprise
