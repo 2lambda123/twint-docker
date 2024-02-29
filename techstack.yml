@@ -1,0 +1,369 @@
+repo_name: 2lambda123/twint-docker
+report_id: 794f5154e6f4b0de9f30284b33f80cb3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:19:43+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/dockerfiles/2.0.0/alpine/Dockerfile
+  detection_source: dockerfiles/2.0.0/alpine/Dockerfile
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j/docker-compose.yml
+  detection_source: ".docker/stack/neo4j/docker-compose.yml"
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/elk/docker-compose.yml
+  detection_source: ".docker/stack/elk/docker-compose.yml"
+- name: Dgraph
+  description: Fast, Distributed Graph DB
+  website_url: https://dgraph.io/
+  open_source: true
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/7071/MrEYkPFd_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/dgraph/docker-compose.yml
+  detection_source: ".docker/stack/dgraph/docker-compose.yml"
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: Kafka REST
+  description: A RESTful interface to a Kafka cluster
+  website_url: https://github.com/confluentinc/kafka-rest
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Kafka Tools
+  image_url: https://img.stackshare.io/service/8938/default_952e19080b823dcfc14ef0508ae6a783d35224f6.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker
+  detection_source: Repo Metadata
+- name: Drone.io
+  description: Open source continuous integration platform built on Docker
+  website_url: https://drone.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/668/R_wMcCqN_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.drone.yml
+  detection_source: ".drone.yml"
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/twint-docker
+  detection_source: Repo Metadata
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/elk/docker-compose.yml
+  detection_source: ".docker/stack/elk/docker-compose.yml"
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/dockerfiles/2.0.0/alpine/Dockerfile
+  detection_source: dockerfiles/2.0.0/alpine/Dockerfile
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/neo4j-kafka/docker-compose.yml
+  detection_source: ".docker/stack/neo4j-kafka/docker-compose.yml"
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/.docker/stack/elk/docker-compose.yml
+  detection_source: ".docker/stack/elk/docker-compose.yml"
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/twint-docker
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/dockerfiles/2.0.0/Dockerfile
+  detection_source: dockerfiles/2.0.0/Dockerfile
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: configor
+  description: Golang Configuration tool that support YAML
+  package_url: https://pkg.go.dev/github.com/jinzhu/configor
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: githubv4
+  description: Package githubv4 is a client library for accessing GitHub GraphQL API
+    v4
+  package_url: https://pkg.go.dev/github.com/shurcooL/githubv4
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: go-git.v4
+  description: Package git is a low level and highly extensible git client library
+    for reading repositories from git servers
+  package_url: https://pkg.go.dev/gopkg.in/src-d/go-git.v4
+  version: 4.13.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  version: 1.2.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: pp
+  description: Colored pretty printer for Go language
+  package_url: https://pkg.go.dev/github.com/k0kubun/pp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.mod
+  detection_source: go.mod
+- name: semver
+  description: Semantic Versioning
+  package_url: https://pkg.go.dev/github.com/blang/semver
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.mod
+  detection_source: go.mod
+- name: shurcooL/graphql
+  description: Package graphql provides a GraphQL client implementation
+  package_url: https://pkg.go.dev/github.com/shurcooL/graphql
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
+- name: uitable
+  description: A go library to improve readability in terminal apps using tabular
+    data
+  package_url: https://pkg.go.dev/github.com/gosuri/uitable
+  version: 0.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/twint-docker/blob/master/go.sum
+  detection_source: go.mod
