@@ -52,7 +52,7 @@ docker-compose up -d
 docker-compose run twint -h
 ```
 
-or 
+or
 
 ```
 docker pull thetwintproject/twint:[[TAG]]
@@ -134,4 +134,3 @@ See [`./docs/CONTRIBUTING.md`](https://github.com//twintproject/twint-docker/tre
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-

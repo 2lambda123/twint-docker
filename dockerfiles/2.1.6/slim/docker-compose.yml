@@ -25,7 +25,7 @@ services:
     ports:
     - "9050:9050" # Tor proxy
     - "9051:9051" # Tor control port
-    - "8118:8118" # Privoxy  
+    - "8118:8118" # Privoxy
 
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION}
