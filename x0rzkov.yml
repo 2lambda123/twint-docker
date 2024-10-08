@@ -3,7 +3,7 @@ app-name: twint
 verbose-mode: true
 vcs:
   name: origin
-  urls: 
+  urls:
   - https://github.com/twintproject/twint
   skip-version:
   - "v1.0"
@@ -27,7 +27,7 @@ docker:
   namespace: thetwintproject # docker-hub account
   basename: twint # docker image basename
   summary:
-  description: 
+  description:
   images:
     alpine:
       disabled: false
@@ -39,22 +39,22 @@ docker:
         runtime:
           base: alpine
           tag: 3.11
-      dockerfile: 
+      dockerfile:
         file: .docker/templates/dockerfile_alpine.tmpl
-      docker-entrypoint: 
+      docker-entrypoint:
         file: .docker/templates/docker-entrypoint.tmpl
-      docker-sync: 
+      docker-sync:
         disabled: true
         file: .docker/templates/docker-sync.tmpl
-      dockerignore: 
+      dockerignore:
         file: .docker/templates/dockerignore.tmpl
-      dockercompose: 
+      dockercompose:
         file: .docker/templates/docker-compose.tmpl
-      makefile: 
+      makefile:
         file: .docker/templates/makefile.tmpl
-      readme: 
+      readme:
         file: .docker/templates/readme_alpine.tmpl
-      envfile: 
+      envfile:
         file: .docker/templates/env.tmpl
 
     slim:
@@ -65,19 +65,19 @@ docker:
           base: python
           tag: 3.7-slim-stretch
       maintainer: x0rxkov <x0rxkov@protonmail.com>
-      dockerfile: 
+      dockerfile:
         file: .docker/templates/dockerfile_debian-slim.tmpl
-      docker-entrypoint: 
+      docker-entrypoint:
         file: .docker/templates/docker-entrypoint.tmpl
-      dockerignore: 
+      dockerignore:
         file: .docker/templates/dockerignore.tmpl
-      dockercompose: 
+      dockercompose:
         file: .docker/templates/docker-compose.tmpl
-      makefile: 
+      makefile:
         file: .docker/templates/makefile.tmpl
-      readme: 
+      readme:
         file: .docker/templates/readme.tmpl
-      envfile: 
+      envfile:
         file: .docker/templates/env.tmpl
 
     ubuntu:
@@ -87,19 +87,19 @@ docker:
         runtime:
           base: ubuntu
           tag: 19.10
-      dockerfile: 
+      dockerfile:
         file: .docker/templates/dockerfile_ubuntu.tmpl
-      docker-entrypoint: 
+      docker-entrypoint:
         file: .docker/templates/docker-entrypoint.tmpl
-      dockerignore: 
+      dockerignore:
         file: .docker/templates/dockerignore.tmpl
-      dockercompose: 
+      dockercompose:
         file: .docker/templates/docker-compose.tmpl
-      makefile: 
+      makefile:
         file: .docker/templates/makefile.tmpl
-      readme: 
+      readme:
         file: .docker/templates/readme.tmpl
-      envfile: 
+      envfile:
         file: .docker/templates/env.tmpl
 
 authors:

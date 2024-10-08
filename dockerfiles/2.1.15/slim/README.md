@@ -26,7 +26,7 @@ For first usage, you need to build image docker.
 docker pull x0rzkov/twint:2.1.15
 ```
 
-or 
+or
 
 ```shell
 docker-compose build
@@ -35,7 +35,7 @@ docker-compose build
 #### Create an alias
 ```shell
 alias twint="docker run -ti --rm -v $(pwd)/data:/opt/app/data x0rzkov/twint:2.1.15-slim"
-```               
+```
 
 ### Elasticsearch and Kibana
 
